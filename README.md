@@ -74,7 +74,12 @@ The model was trained for 20 epochs using a CNN architecture. Below is a snapsho
 
 The model converged successfully and achieved perfect accuracy on the training set.
 
+## 📂 Dataset
 
+The ASL hand gesture dataset used in this project was downloaded from [Kaggle]([https://www.kaggle.com/](https://www.kaggle.com/datasets/lexset/synthetic-asl-alphabet/data).  
+
+
+Dataset structure:
 📚 Files Explained
 - train_model.py: Loads and preprocesses data, trains the CNN model.
 - detect_sign.py: Loads the trained model and performs live prediction using webcam.
