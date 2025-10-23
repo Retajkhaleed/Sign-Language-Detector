@@ -79,12 +79,6 @@ The model converged successfully and achieved perfect accuracy on the training s
 The ASL hand gesture dataset used in this project was downloaded from [Kaggle]([https://www.kaggle.com/](https://www.kaggle.com/datasets/lexset/synthetic-asl-alphabet/data).  
 
 
-Dataset structure:
-📚 Files Explained
-- train_model.py: Loads and preprocesses data, trains the CNN model.
-- detect_sign.py: Loads the trained model and performs live prediction using webcam.
-- model/asl_model.h5: Saved model after training.
-- model/labels.txt: List of class labels used during training.
 
 💡 Notes
 - Make sure the dataset is organized with one folder per ASL letter inside dataset/asl data.
